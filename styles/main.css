@@ -18,7 +18,6 @@
     --color-box-base: #FFFFFF;
     --color-box-footer: #FAFAFC;
     --color-small-info: #C1BCCC;
-    font-size: 60%; /* controle das medidas rem */
 }
 
 *{
@@ -50,4 +49,10 @@ textarea{
 #container {
     width: 90vw;
     max-width: 700px;
+}
+
+@media (min-width: 700px) {
+    :root {
+        font-size: 62.5%;
+    }
 }
